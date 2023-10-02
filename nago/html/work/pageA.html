@@ -1,0 +1,83 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Nago - Admin & Dashboard HTML Template</title>
+
+  <!-- Favicon -->
+  <link rel="shortcut icon" href="../../assets/media/image/favicon.png" />
+
+  <!-- Plugin styles -->
+  <link rel="stylesheet" href="../../vendors/bundle.css" type="text/css">
+
+  <!-- Prism -->
+  <link rel="stylesheet" href="../../vendors/prism/prism.css" type="text/css">
+
+  <!-- App styles -->
+  <link rel="stylesheet" href="../../assets/css/app.min.css" type="text/css">
+
+  <link rel="stylesheet" href="../../assets/css/work.css" type="text/css">
+</head>
+
+<body class="mobile-container">
+
+  <div id="page-main">
+    <div id="pageA">
+
+      <div id="divA">Header</div>
+      <div id="divB">Short intro about this step</div>
+
+      <div id="radio">
+        <div class="form-group">
+          <div class="form-check p-0 m-t-10">
+            <input hidden class="form-check-input custom-radio" type="radio" name="selector" id="dragon" value="dragon">
+            <label class="form-check-label selector" for="dragon">
+              <img class="selector-img m-r-10" />
+              <div class="selector-content">
+                <h3 class="selector-content-title m-b-10">Dragon</h3>
+                <p class="selector-content-text">I want to train a dragon</p>
+              </div>
+            </label>
+          </div>
+        </div>
+
+        <div class="form-group">
+          <div class="form-check p-0 m-t-10">
+            <input hidden class="form-check-input custom-radio" type="radio" name="selector" id="princess"
+              value="princess">
+            <label class="form-check-label selector" for="princess">
+              <img class="selector-img m-r-10" />
+              <div class="selector-content">
+                <h3 class="selector-content-title m-b-10">Princes</h3>
+                <p class="selector-content-text">I want to be a princess</p>
+              </div>
+            </label>
+          </div>
+        </div>
+      </div>
+
+      <div class="form-group">
+        <button id="buttA" class="btn btn-outline-primary btn-block border-radius-round upload-xls-btn">Upload
+          XLS</button>
+        <input hidden type="file" class="form-control-file" id="upload-xls-file">
+        <div id="divC" class="upload-xls-file-name m-t-b-10"></div>
+      </div>
+
+      <div class="form-group">
+        <button id="buttB" class="btn btn-primary btn-block border-radius-round" disabled>Continue</button>
+      </div>
+
+    </div>
+
+  </div>
+
+  <script src="../../assets//js/custom/main.js"></script>
+
+  <script src="../../assets//js/custom/pageA.js"></script>
+</body>
+
+
+</html>

@@ -1,0 +1,76 @@
+.mobile-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  height: 100vh;
+
+  position: relative;
+}
+
+#page-main {
+  width: 100%;
+  max-width: 1080px;
+
+  padding: 20px;
+  border: 1px solid;
+}
+
+/* PageA styles */
+
+input[type="radio"]:checked + .selector {
+  background-color: lightblue;
+}
+
+.selector {
+  background-color: #fff;
+
+  cursor: pointer;
+
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+
+}
+
+.selector-img {
+  width: 100px;
+  height: 100px;
+  display: block;
+  object-fit: cover;
+ }
+
+.selector-content {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.selector-content-title {
+  /* margin: 0;
+  margin-bottom: 10px; */
+}
+
+.border-radius-round {
+  border-radius: 100px !important;
+}
+
+.upload-xls-btn {
+  border-width: 3px;
+  font-weight: 500;
+}
+
+/* End PageA Styles */
+
+/* PageB styles */
+.dynamic-dark-region {
+  background-color: rgba(0,0,0,0.4);
+  padding: 10px;
+  margin: -10px;
+}
+
+/* End  PageB styles */
+
+.text-center {
+  text-align: center !important;
+}
